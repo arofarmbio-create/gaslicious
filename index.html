@@ -477,21 +477,21 @@ DEMO_CATALOGUE.forEach((p) => { if (!p.cat) p.cat = DEMO_CAT[p.id] || "bread"; }
 
 /* Packs Licious de démonstration : composition [id produit, quantité]. Dans la version finale, ils viennent de la console avec leur prix. */
 const DEMO_PACKS = [
-  { id: "apero", photo: "img/pack-apero.jpg", showPrice: false, price: null,
+  { id: "apero", photo: "img/pack-apero.jpg", showPrice: true, price: 3000,
     name: { fr: "Pack Licious Apéro", mg: "Pack Licious Apéro", en: "Licious Party Pack" },
-    desc: { fr: "Mini pizzas, petits fours et jus naturel pour recevoir.", mg: "Mini pizza, petits fours ary ranom-boankazo voajanahary ho an'ny fandraisana.", en: "Mini pizzas, petits fours and natural juice for entertaining." },
+    desc: { fr: "Pour 1 personne : 1 mini pizza, 1 petit four et 1 verre de jus naturel.", mg: "Ho an'olona iray : mini pizza 1, petit four 1 ary ranom-boankazo voajanahary 1 vera.", en: "For 1 person: 1 mini pizza, 1 petit four and 1 glass of natural juice." },
     items: [["mini-pizza", 1], ["petits-fours", 1], ["jus-naturel", 1]] },
-  { id: "petit-dej", photo: "img/pack-petit-dej.jpg", showPrice: false, price: null,
+  { id: "petit-dej", photo: "img/pack-petit-dej.jpg", showPrice: true, price: 11000,
     name: { fr: "Pack Licious Petit-déjeuner", mg: "Pack Licious sakafo maraina", en: "Licious Breakfast Pack" },
-    desc: { fr: "Croissants, feuilleté, chocolat chaud et jus naturel.", mg: "Croissant, feuilleté, chocolat mafana ary ranom-boankazo voajanahary.", en: "Croissants, puff pastry, hot chocolate and natural juice." },
+    desc: { fr: "Pour 1 personne : 2 croissants, 1 feuilleté, 1 chocolat chaud et 1 verre de jus naturel.", mg: "Ho an'olona iray : croissant 2, feuilleté 1, chocolat mafana 1 ary ranom-boankazo voajanahary 1 vera.", en: "For 1 person: 2 croissants, 1 puff pastry, 1 hot chocolate and 1 glass of natural juice." },
     items: [["croissant", 2], ["feuillete", 1], ["chocolat-chaud", 1], ["jus-naturel", 1]] },
-  { id: "gouter", photo: "img/pack-gouter.jpg", showPrice: false, price: null,
+  { id: "gouter", photo: "img/pack-gouter.jpg", showPrice: true, price: 2150,
     name: { fr: "Pack Licious Goûter", mg: "Pack Licious sakafo maraina kely", en: "Licious Snack Pack" },
-    desc: { fr: "Galettes, brioche et jus naturel.", mg: "Galeta, brioche ary ranom-boankazo voajanahary.", en: "Galettes, brioche and natural juice." },
+    desc: { fr: "Pour 1 personne : 1 galette vanille, 1 brioche boost et 1 verre de jus naturel.", mg: "Ho an'olona iray : galeta vanila 1, brioche boost 1 ary ranom-boankazo voajanahary 1 vera.", en: "For 1 person: 1 vanilla galette, 1 boost brioche and 1 glass of natural juice." },
     items: [["galette-vanille", 1], ["brioche", 1], ["jus-naturel", 1]] },
-  { id: "gourmand", photo: "img/pack-gourmand.jpg", showPrice: false, price: null,
+  { id: "gourmand", photo: "img/pack-gourmand.jpg", showPrice: true, price: 3400,
     name: { fr: "Pack Licious Gourmand", mg: "Pack Licious Gourmand", en: "Licious Treat Pack" },
-    desc: { fr: "Cake au citron, petits fours et chocolat chaud.", mg: "Cake citron, petits fours ary chocolat mafana.", en: "Lemon cake, petits fours and hot chocolate." },
+    desc: { fr: "Pour 1 personne : 1 tranche de cake au citron, 1 petit four et 1 chocolat chaud.", mg: "Ho an'olona iray : cake citron 1 silaka, petit four 1 ary chocolat mafana 1.", en: "For 1 person: 1 slice of lemon cake, 1 petit four and 1 hot chocolate." },
     items: [["cake-citron", 1], ["petits-fours", 1], ["chocolat-chaud", 1]] }
 ];
 
